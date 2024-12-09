@@ -4,12 +4,13 @@ board_id: "radxa_cm3_io_board"
 title: "Radxa CM3 IO Board Download"
 name: "Radxa CM3 IO Board"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock3/CM3/IO"
+board_url:
+ - "https://wiki.radxa.com/Rock3/CM3/IO"
 board_image: "radxa_cm3_io_board.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-5
+date_added: 2023-05-05
 features:
   - Wi-Fi
   - Bluetooth/BLE

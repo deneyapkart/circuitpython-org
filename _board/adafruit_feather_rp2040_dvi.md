@@ -4,10 +4,12 @@ board_id: "adafruit_feather_rp2040_dvi"
 title: "Feather RP2040 with DVI Output Port Download"
 name: "Feather RP2040 with DVI Output Port"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5710"
+board_url:
+ - "https://www.adafruit.com/product/5710"
 board_image: "adafruit_feather_rp2040_dvi.jpg"
-date_added: 2023-3-27
-family: raspberrypi
+date_added: 2023-03-27
+family: rp2040
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-dvi/circuitpython
 tags:
   - DVI Feather
   - Feather DVI

@@ -4,12 +4,13 @@ board_id: "clockworkpi"
 title: "ClockworkPi Download"
 name: "ClockworkPi"
 manufacturer: "Clockwork Tech LLC"
-board_url: "https://www.clockworkpi.com/product-page/cpi-v3-1"
+board_url:
+ - "https://www.clockworkpi.com/product-page/cpi-v3-1"
 board_image: "clockworkpi.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-4-16
+date_added: 2020-04-16
 features:
   - Wi-Fi
   - Bluetooth/BLE

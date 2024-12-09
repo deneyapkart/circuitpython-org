@@ -4,10 +4,12 @@ board_id: "elecfreaks_picoed"
 title: "ELECFREAKS Pico:ed Download"
 name: "ELECFREAKS Pico:ed"
 manufacturer: "ELECFREAKS"
-board_url: "https://www.elecfreaks.com/picoed.html"
+board_url:
+ - "https://www.elecfreaks.com/picoed.html"
 board_image: "elecfreaks_picoed.jpg"
-date_added: 2022-4-21
-family: raspberrypi
+date_added: 2022-04-21
+family: rp2040
+download_instructions: https://www.elecfreaks.com/learn-en/pico-ed/index.html
 features:
   - Speaker
   - Display

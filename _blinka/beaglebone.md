@@ -4,12 +4,13 @@ board_id: "beaglebone"
 title: "BeagleBone Download"
 name: "BeagleBone"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/bone-original"
+board_url:
+ - "https://beagleboard.org/bone-original"
 board_image: "beaglebone.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2021-4-6
+date_added: 2021-04-06
 features:
   - Ethernet
 ---

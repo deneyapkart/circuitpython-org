@@ -1,14 +1,15 @@
 ---
 layout: download
 board_id: "odroid_n2"
-title: "Odroid N2 Download"
-name: "Odroid N2"
+title: "ODROID N2 Download"
+name: "ODROID N2"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
 board_image: "odroid_n2.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Ethernet
   - USB 3.0

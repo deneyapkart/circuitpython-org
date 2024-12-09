@@ -4,9 +4,12 @@ board_id: "serpente"
 title: "Serpente Download"
 name: "Serpente"
 manufacturer: "arturo182"
-board_url: "https://serpente.solder.party/"
+board_url:
+ - "https://serpente.solder.party/"
+ - "https://www.adafruit.com/product/4513"
+ - "https://www.adafruit.com/product/4514"
 board_image: "serpente.jpg"
-date_added: 2019-9-17
+date_added: 2019-09-17
 family: atmel-samd
 bootloader_id: serpente
 downloads_display: true
@@ -15,6 +18,7 @@ download_instructions: ""
 
 features:
   - USB-C
+  - Castellated Pads
 ---
 
 There are two Serpente boards, they are both virtually the same, except for the USB connector. The standard Serpente board contains a USB-C connector, and the Serpente Plug uses the board itself as a Type-A USB plug.

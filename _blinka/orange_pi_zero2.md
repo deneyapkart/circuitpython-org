@@ -4,12 +4,13 @@ board_id: "orange_pi_zero2"
 title: "Orange Pi Zero2 Download"
 name: "Orange Pi Zero2"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/Orange%20Pi%20Zero2/"
+board_url:
+ - "http://www.orangepi.org/Orange%20Pi%20Zero2/"
 board_image: "orange_pi_zero.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-2-8
+date_added: 2020-02-08
 features:
   - Wi-Fi
   - Bluetooth/BLE

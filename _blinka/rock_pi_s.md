@@ -4,12 +4,13 @@ board_id: "rock_pi_s"
 title: "Rock Pi S Download"
 name: "Rock Pi S"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/RockpiS"
+board_url:
+ - "https://wiki.radxa.com/RockpiS"
 board_image: "rock_pi_s.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-4-29
+date_added: 2020-04-29
 features:
   - Wi-Fi
   - Bluetooth/BLE

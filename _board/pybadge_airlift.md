@@ -4,9 +4,10 @@ board_id: "pybadge_airlift"
 title: "PyBadge AirLift Download"
 name: "PyBadge AirLift"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/"
 board_image: "pybadge_airlift.jpg"
-date_added: 2019-7-1
+date_added: 2019-07-01
 family: atmel-samd
 bootloader_id: arcade_pybadge
 features:

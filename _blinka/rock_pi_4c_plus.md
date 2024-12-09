@@ -4,12 +4,13 @@ board_id: "rock_pi_4c_plus"
 title: "ROCK Pi 4C+ Download"
 name: "ROCK Pi 4C+"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock4/4cplus"
+board_url:
+ - "https://wiki.radxa.com/Rock4/4cplus"
 board_image: "rock_pi_4c_plus.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-5
+date_added: 2023-05-05
 features:
   - Wi-Fi
   - Bluetooth/BLE

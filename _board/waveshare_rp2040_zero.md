@@ -4,13 +4,15 @@ board_id: "waveshare_rp2040_zero"
 title: "Waveshare RP2040-Zero Download"
 name: "RP2040-Zero"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/rp2040-zero.htm"
+board_url:
+ - "https://www.waveshare.com/rp2040-zero.htm"
 board_image: "waveshare_rp2040_zero.jpg"
-date_added: "2022-1-12"
-family: raspberrypi
+date_added: 2022-01-12
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 a Pico-like MCU board based on Raspberry Pi RP2040

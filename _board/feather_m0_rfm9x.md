@@ -4,11 +4,14 @@ board_id: "feather_m0_rfm9x"
 title: "Feather M0 RFM9x Download"
 name: "Feather M0 RFM9x"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3178"
+ - "https://www.adafruit.com/product/3179"
 board_image: "feather_m0_rfm9x.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: radiofruit_m0
+download_instructions: https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module/circuitpython-for-rfm9x-lora
 features:
   - Feather-Compatible
   - Battery Charging

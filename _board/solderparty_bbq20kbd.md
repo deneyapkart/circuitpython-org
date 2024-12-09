@@ -4,15 +4,15 @@ board_id: "solderparty_bbq20kbd"
 title: "BB Q20 Keyboard with trackpad Download"
 name: "BB Q20 Keyboard with trackpad"
 manufacturer: "Solder Party"
-board_url: "https://www.solder.party/docs/bbq20kbd/"
+board_url:
+ - "https://www.solder.party/docs/bbq20kbd/"
 board_image: "solderparty_bbq20kbd.jpg"
 date_added: 2022-08-20
-family: raspberrypi
+family: rp2040
 bootloader_id: solderparty__bbq20kbd
 downloads_display: true
 blinka: false
 download_instructions: ""
-
 features:
   - USB-C
   - STEMMA QT/QWIIC

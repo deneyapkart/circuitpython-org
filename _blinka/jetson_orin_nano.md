@@ -4,16 +4,18 @@ board_id: "jetson_orin_nano"
 title: "Jetson Orin Nano Dev Kit Download"
 name: "Jetson Orin Nano Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+board_url:
+ - "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
 board_image: "jetson_orin_nano.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - Ethernet
   - 40-pin GPIO
   - HDMI/DisplayPort
+  - NVME/M.2 Connector
 ---
 
 NVIDIA Jetson Orin™ Nano Developer Kit is a compact edge AI board built with Jetson Orin™ Nano 8GB module which delivers up to 40TOPS AI performance and has a rich set of IOs including USB 3.2 Gen 2 ports, 2x M.2 Key M for SSD, pre-installed Wi-Fi module, and more.

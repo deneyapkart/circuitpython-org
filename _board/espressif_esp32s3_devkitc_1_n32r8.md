@@ -4,13 +4,15 @@ board_id: "espressif_esp32s3_devkitc_1_n32r8"
 title: "ESP32-S3-DevKitC-1-N32R8 Download"
 name: "ESP32-S3-DevKitC-1-N32R8"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5364"
+board_url:
+ - "https://www.adafruit.com/product/5364"
 board_image: "espressif_esp32s3_devkitc_1.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32s3
 bootloader_id: espressif_esp32s3_devkitc_1
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
 ---
 

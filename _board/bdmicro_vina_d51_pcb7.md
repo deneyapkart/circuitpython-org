@@ -4,9 +4,10 @@ board_id: "bdmicro_vina_d51_pcb7"
 title: "Vina-D51 (PCB 7) Download"
 name: "VINA-D51 (PCB 7)"
 manufacturer: "BDMICRO, LLC"
-board_url: "https://bdmicro.com/products/vina-d51"
+board_url:
+ - "https://bdmicro.com/products/vina-d51"
 board_image: "bdmicro_vina_d51.jpg"
-date_added: 2021-5-26
+date_added: 2021-05-26
 family: atmel-samd
 features:
   - Wi-Fi

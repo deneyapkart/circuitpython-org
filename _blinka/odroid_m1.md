@@ -1,10 +1,11 @@
 ---
 layout: download
 board_id: "odroid_m1"
-title: "Odroid M1 Download"
-name: "Odroid M1"
+title: "ODROID M1 Download"
+name: "ODROID M1"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/"
 board_image: "odroid_m1.jpg"
 downloads_display: true
 blinka: true
@@ -15,6 +16,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - Infrared Receiver
+  - NVME/M.2 Connector
 ---
 
 The ODROID-M1 is a single board computer with a wide range of useful peripherals developed for use in a variety of embedded system applications. To achieve this goal, we have developed various hardware accessories and device driver software over the past 10 months. In addition, RK3568B2, the core brain of ODROID-M1, is considered suitable for embedded application use as the SoC manufacturer (Rockchip) guarantees supply for the next 15 years. Therefore, we expect we can supply the ODROID-M1 boards to our important B2B customers until the year 2036 or beyond.
@@ -42,7 +44,8 @@ Let’s take a look at the main features and peripherals of ODROID-M1.
 -  1 x eMMC Module Socket
 -  1 x IR Receiver
 -  1 x RTC Backup Battery Holder
--  1 x Reset jumper 1 x Power jumper
+-  1 x Reset jumper
+-  1 x Power jumper
 -  1 x Micro SD Slot
 -  1 x SATA3
 -  1 x SATA Power (5volt only)

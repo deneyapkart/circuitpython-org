@@ -4,12 +4,13 @@ board_id: "orange_pi_plus_2e"
 title: "Orange Pi Plus 2E Download"
 name: "Orange Pi Plus 2E"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepiplus2e/"
+board_url:
+ - "http://www.orangepi.org/orangepiplus2e/"
 board_image: "orange_pi_plus_2e.png"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
-date_added: 2020-1-18
+date_added: 2020-01-18
 features:
   - Wi-Fi
   - Bluetooth/BLE

@@ -4,9 +4,10 @@ board_id: "espressif_esp32_lyrat"
 title: "ESP32-LyraT Download"
 name: "ESP32-LyraT"
 manufacturer: "Espressif"
-board_url: "https://www.espressif.com/en/products/devkits/esp32-lyrat"
+board_url:
+ - "https://www.espressif.com/en/products/devkits/esp32-lyrat"
 board_image: "espressif_esp32_lyrat.jpg"
-date_added: 2023-3-1
+date_added: 2023-03-01
 family: esp32
 features:
   - Wi-Fi

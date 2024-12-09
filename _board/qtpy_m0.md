@@ -4,16 +4,19 @@ board_id: "qtpy_m0"
 title: "QT Py Download"
 name: "QT Py"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4600"
+board_url:
+ - "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0.jpg"
-date_added: 2020-9-28
+date_added: 2020-09-28
 family: atmel-samd
 bootloader_id: QTPy_m0
+download_instructions: https://learn.adafruit.com/adafruit-qt-py/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 > **Note:** If you soldered the [optional SOIC-8 SPI Flash chip](https://www.adafruit.com/product/4763) on to your QT Py, see the ["QT Py Haxpress"](../qtpy_m0_haxpress/) page to make use of the extra space!

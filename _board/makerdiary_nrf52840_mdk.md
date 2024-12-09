@@ -4,9 +4,10 @@ board_id: "makerdiary_nrf52840_mdk"
 title: "nRF52840 Micro Dev Kit Download"
 name: "nRF52840 Micro Dev Kit"
 manufacturer: "MakerDiary"
-board_url: ""
+board_url:
+ - "https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-iot-development-kit"
 board_image: "nRF52840_micro_dev_kit.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 features:
   - Bluetooth/BTLE

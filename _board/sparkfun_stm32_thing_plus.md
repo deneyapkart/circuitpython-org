@@ -4,9 +4,10 @@ board_id: "sparkfun_stm32_thing_plus"
 title: "STM32 Thing Plus Download"
 name: "STM32 Thing Plus"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/17712"
+board_url:
+ - "https://www.sparkfun.com/products/17712"
 board_image: "sparkfun_stm32_thing_plus.jpg"
-date_added: 2022-1-4
+date_added: 2022-01-04
 family: stm
 features:
   - Feather-Compatible

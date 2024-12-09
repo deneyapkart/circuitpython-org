@@ -4,11 +4,13 @@ board_id: "robohatmm1_m4"
 title: "Robo HAT MM1 Download"
 name: "Robo HAT MM1 M4"
 manufacturer: "Robotics Masters"
-board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
+board_url:
+ - "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
 board_image: "robohatmm1.jpg"
-date_added: 2019-7-27
+date_added: 2019-07-27
 family: atmel-samd
 bootloader_id: robohatmm1_m4
+download_instructions: https://www.hackster.io/wallarug/getting-started-with-robohat-mm1-circuitpython-d3ee77
 features:
   - Robotics
 ---

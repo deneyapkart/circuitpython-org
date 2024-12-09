@@ -4,12 +4,13 @@ board_id: "raspberry_pi_3bplus"
 title: "Raspberry Pi 3 Model B Download"
 name: "Pi 3 Model B"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-b/"
+board_url:
+ - "https://www.raspberrypi.org/products/raspberry-pi-3-model-b/"
 board_image: "raspberry_pi_3b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2019-6-17
+date_added: 2019-06-17
 features:
   - Wi-Fi
   - Bluetooth/BLE

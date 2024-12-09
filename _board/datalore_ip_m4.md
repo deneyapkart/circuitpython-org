@@ -4,11 +4,13 @@ board_id: "datalore_ip_m4"
 title: "Datalore-IP-M4 Download"
 name: "Datalore-IP-M4"
 manufacturer: "TG-Techie"
-board_url: "https://github.com/TG-Techie/Datalore-IP-M4"
+board_url:
+ - "https://github.com/TG-Techie/Datalore-IP-M4"
 board_image: "datalore_ip_m4.jpg"
-date_added: 2019-4-5
+date_added: 2019-04-05
 family: atmel-samd
 features:
+  - Castellated Pads
 ---
 
 Datalore IP M4 is an integrable CircuitPython ready module for soldering onto projects. Like

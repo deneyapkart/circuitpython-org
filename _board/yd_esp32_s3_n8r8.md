@@ -4,9 +4,10 @@ board_id: "yd_esp32_s3_n8r8"
 title: "YD-ESP32-S3 N8R8 Download"
 name: "YD-ESP32-S3 N8R8"
 manufacturer: "VCC-GND Studio"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305"
 board_image: "yd_esp32_s3.jpg"
-date_added: 2023-5-3
+date_added: 2023-05-03
 family: esp32s3
 features:
   - Breadboard-Friendly
@@ -21,3 +22,6 @@ Most of the pins of the modules on the board have been led out to the pin rows o
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305)
+
+Hardware information and example code:
+* [Github](https://github.com/vcc-gnd/YD-ESP32-S3)

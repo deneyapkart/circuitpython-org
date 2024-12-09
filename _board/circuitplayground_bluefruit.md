@@ -4,11 +4,16 @@ board_id: "circuitplayground_bluefruit"
 title: "Circuit Playground Bluefruit Download"
 name: "Circuit Playground Bluefruit"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4333"
+ - "https://www.adafruit.com/product/764"
+ - "https://www.adafruit.com/product/4504"
+ - "https://www.adafruit.com/product/4371"
 board_image: "circuitplayground_bluefruit.jpg"
-date_added: 2019-8-30
+date_added: 2019-08-30
 family: nrf52840
 bootloader_id: circuitplayground_nrf52840
+download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython
 features:
   - Speaker
   - Solder-Free Alligator Clip

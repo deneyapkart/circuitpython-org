@@ -4,10 +4,11 @@ board_id: "bwshockley_figpi"
 title: "FigPi Download"
 name: "FigPi"
 manufacturer: "Benjamin Shockley"
-board_url: ""
+board_url:
+ - "https://minifigboards.com/fig-pi"
 board_image: "bwshockley_figpi.jpg"
-date_added: 2022-8-22
-family: raspberrypi
+date_added: 2022-08-22
+family: rp2040
 features:
   - STEMMA QT/QWIIC
 ---

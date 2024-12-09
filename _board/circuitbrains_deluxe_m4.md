@@ -4,14 +4,18 @@ board_id: "circuitbrains_deluxe_m4"
 title: "CircuitBrains Deluxe Download"
 name: "CircuitBrains Deluxe"
 manufacturer: "Null Byte Labs LLC"
-board_url: ""
+board_url:
+ - "https://github.com/neubauek/CircuitBrains"
+ - "https://www.adafruit.com/product/4802"
 board_image: "circuitbrains_deluxe.jpg"
-date_added: 2020-2-27
+date_added: 2020-02-27
 family: atmel-samd
 bootloader_id: circuitbrains_deluxe_m4
 downloads_display: true
 blinka: false
 download_instructions: ""
+features:
+  - Castellated Pads
 ---
 
 CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder" castellated module is perfect for incorporating into your own project. The CircuitBrains Deluxe board footprint is small enough to fit into narrow spaces and wearable projects.
@@ -33,7 +37,6 @@ CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder
 
 ## Purchase
 
-* [CircuitBrains Deluxe Project Page](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
 * [Kevin Neubauer Twitter](https://twitter.com/kevinneubauer)
 
 ## Learn more

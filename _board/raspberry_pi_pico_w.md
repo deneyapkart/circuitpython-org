@@ -4,22 +4,25 @@ board_id: "raspberry_pi_pico_w"
 title: "Pico W Download"
 name: "Pico W"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/5526"
+board_url:
+ - "https://www.adafruit.com/product/5526"
+ - "https://www.adafruit.com/product/5544"
 board_image: "raspberry_pi_pico_w.jpg"
-date_added: 2022-10-2
-family: raspberrypi
+date_added: 2022-10-02
+family: rp2040
+download_instructions: https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython
 tags:
   - picow
   - 🥧🐮
 features:
   - Breadboard-Friendly
   - Wi-Fi
-  - Bluetooth/BTLE
+  - Castellated Pads 
 ---
 
 The Raspberry Pi foundation changed single-board computing [when they released the Raspberry Pi computer](https://www.raspberrypi.org/archives/723), now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico W**. This low-cost microcontroller board features their powerful new chip, the **RP2040**, and all the fixin's to get started with IoT embedded electronics projects at a stress-free price.
 
-Raspberry Pi Pico W brings WiFi + BLE (coming soon) wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling.
+Raspberry Pi Pico W brings WiFi + BLE wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling.(BLE is not currently available on CircuitPython.)
 
 **Raspberry Pi Pico W** is [just like the classic Pico](https://www.adafruit.com/product/4864) but adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW43439 while retaining the Pico form factor. The on-board 2.4GHz wireless interface has the following features:
 
@@ -72,7 +75,7 @@ While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLAS
   - USB 1.1 controller and PHY, with host and device support
   - 8 PIO state machines
 
-[Click here for the Raspberry Pi documentation.](https://raspberrypi.org/documentation/pico/getting-started/)
+[Click here for the Raspberry Pi documentation.](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w)
 [Click here for Getting Started with Raspberry Pi Pico and CircuitPython.](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython)
 
 ## Purchase

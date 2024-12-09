@@ -4,11 +4,14 @@ board_id: "itsybitsy_m4_express"
 title: "ItsyBitsy M4 Express Download"
 name: "ItsyBitsy M4 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3800"
+board_url:
+ - "https://www.adafruit.com/product/3800"
+ - "https://www.adafruit.com/product/4028"
 board_image: "itsybitsy_m4_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: itsybitsy_m4
+download_instructions: https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/circuitpython
 features:
   - Breadboard-Friendly
 ---

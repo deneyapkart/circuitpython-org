@@ -4,10 +4,11 @@ board_id: "sparkfun_thing_plus_rp2040"
 title: "Thing Plus - RP2040 Download"
 name: "Thing Plus - RP2040"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/17745"
+board_url:
+ - "https://www.sparkfun.com/products/17745"
 board_image: "sparkfun_thing_plus_rp2040.jpg"
-date_added: 2021-4-6
-family: raspberrypi
+date_added: 2021-04-06
+family: rp2040
 features:
   - Feather-Compatible
   - Battery Charging

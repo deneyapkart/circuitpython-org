@@ -4,9 +4,10 @@ board_id: "m5stack_atom_lite"
 title: "ATOM Lite ESP32 IoT Download"
 name: "ATOM Lite ESP32 IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/atom_lite"
+board_url:
+ - "https://docs.m5stack.com/en/core/ATOM%20Lite"
 board_image: "m5stack_atom_lite.jpg"
-date_added: 2022-11-1
+date_added: 2022-11-01
 family: esp32
 features:
   - Wi-Fi
@@ -25,7 +26,7 @@ Atom Lite, which has a size of only 24*24mm, is a very compact development board
 
 ## Documentation
 
-* [ATOM Lite ESP32 IoT](https://docs.m5stack.com/en/core/atom_lite)
+* [ATOM Lite ESP32 IoT](https://docs.m5stack.com/en/core/ATOM%20Lite)
 
 ## Purchase
 

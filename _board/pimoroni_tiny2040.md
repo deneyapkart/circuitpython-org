@@ -4,14 +4,16 @@ board_id: "pimoroni_tiny2040"
 title: "Tiny 2040 (8MB) Download"
 name: "Tiny 2040 (8MB)"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/tiny-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/tiny-2040"
 board_image: "pimoroni_tiny2040.jpg"
-date_added: 2021-2-24
-family: raspberrypi
+date_added: 2021-02-24
+family: rp2040
 
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 8MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.

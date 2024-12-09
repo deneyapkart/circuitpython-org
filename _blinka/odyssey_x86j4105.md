@@ -4,7 +4,8 @@ board_id: "odyssey_x86j4105"
 title: "ODYSSEY - X86J4105 Download"
 name: "ODYSSEY - X86J4105"
 manufacturer: "SeeedStudio"
-board_url: "https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html"
+board_url:
+ - "https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html"
 board_image: "odyssey_x86j4105.jpg"
 download_instructions: ""
 downloads_display: true
@@ -16,6 +17,7 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - USB 3.0
+  - NVME/M.2 Connector
 ---
 
 Edge Computing devices are playing an increasingly important role in the field of IoT. Nowadays, a computer is not just a big rectangular black box under the desk, or a small portable device working on your knees. Computers are ubiquitous devices that span calculating, communicating, and data storage. Based on this definition, here we would like to introduce our new product – the ODYSSEY - X86J4105.

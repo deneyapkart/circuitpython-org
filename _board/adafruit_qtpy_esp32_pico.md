@@ -4,11 +4,13 @@ board_id: "adafruit_qtpy_esp32_pico"
 title: "Adafruit QT Py ESP32 Pico Download"
 name: "Adafruit QT Py ESP32 Pico"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5395"
+board_url:
+ - "https://www.adafruit.com/product/5395"
 board_image: "adafruit_qtpy_esp32_pico.jpg"
-date_added: 2022-8-19
+date_added: 2022-08-19
 family: esp32
 downloads_display: true
+download_instructions: https://learn.adafruit.com/circuitpython-with-esp32-quick-start/installing-circuitpython
 features:
   - Xiao / QTPy Form Factor
   - Bluetooth/BTLE
@@ -16,6 +18,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - STEMMA QT/QWIIC
+  - Castellated Pads
 ---
 
 This dev board is like when you're watching a super-hero movie and the protagonist shows up in a totally amazing costume in the third act and you're like 'OMG! That's the hero and they're here to kick some serious butt!" but in this case its a microcontroller.

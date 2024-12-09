@@ -4,12 +4,14 @@ board_id: "wiznet_w5500_evb_pico"
 title: "W5500-EVB-Pico Download"
 name: "W5500-EVB-Pico"
 manufacturer: "WIZnet"
-board_url: "https://www.wiznet.io/product-item/w5500-evb-pico/"
+board_url:
+ - "https://www.wiznet.io/product-item/w5500-evb-pico/"
 board_image: "w5500-evb-pico.jpg"
-date_added: 2022-7-25
-family: raspberrypi
+date_added: 2022-07-25
+family: rp2040
 features:
-    - Breadboard-Friendly
+  - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5500 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5500.

@@ -4,12 +4,13 @@ board_id: "rock_pi_e"
 title: "Rock Pi E Download"
 name: "Rock Pi E"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/RockpiE"
+board_url:
+ - "https://wiki.radxa.com/RockpiE"
 board_image: "rock_pi_e.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2021-5-20
+date_added: 2021-05-20
 features:
   - Wi-Fi
   - Bluetooth/BLE

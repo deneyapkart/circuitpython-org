@@ -4,12 +4,13 @@ board_id: "raspberry_pi_400"
 title: "Raspberry Pi 400 Desktop Download"
 name: "Pi 400 Desktop"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-400-unit"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-400-unit"
 board_image: "raspberry_pi_400.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2020-11-2
+date_added: 2020-11-02
 features:
   - Wi-Fi
   - Bluetooth/BLE

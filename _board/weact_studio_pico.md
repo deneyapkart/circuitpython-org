@@ -4,10 +4,11 @@ board_id: "weact_studio_pico"
 title: "WeAct Studio Pico Download"
 name: "WeAct Studio Pico"
 manufacturer: "WeAct Studio"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.com/item/3256803521775546.html"
 board_image: "weact_studio_pico.jpg"
-date_added: 2022-6-9
-family: raspberrypi
+date_added: 2022-06-09
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

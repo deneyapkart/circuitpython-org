@@ -4,12 +4,13 @@ board_id: "raspberry_pi_zero_2_w"
 title: "Raspberry Pi Zero 2 W Download"
 name: "Zero 2 W"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
 board_image: "raspberry_pi_zero_2_w.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2021-11-1
+date_added: 2021-11-01
 features:
   - Wi-Fi
   - Bluetooth/BLE

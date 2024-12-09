@@ -4,10 +4,12 @@ board_id: "challenger_rp2040_sdrtc"
 title: "Challenger RP2040 SD/RTC Download"
 name: "Challenger RP2040 SD/RTC"
 manufacturer: "Invector Labs"
-board_url: "https://ilabs.se/product/challenger-rp2040-sd-rtc/"
+board_url:
+ - "https://ilabs.se/product/challenger-rp2040-sd-rtc/"
 board_image: "challenger_rp2040_sdrtc.jpg"
 date_added: 2022-12-23
-family: raspberrypi
+family: rp2040
+download_instructions: https://ilabs.se/product/challenger-rp2040-sd-rtc/#tab-getting-started
 features:
   - USB-C
   - Breadboard-Friendly

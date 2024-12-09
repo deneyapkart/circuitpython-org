@@ -4,11 +4,13 @@ board_id: "trinket_m0"
 title: "Trinket M0 Download"
 name: "Trinket M0"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3500"
 board_image: "trinket_m0.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: trinket_m0
+download_instructions: https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/circuitpython
 features:
   - Breadboard-Friendly
 ---

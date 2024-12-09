@@ -4,12 +4,13 @@ board_id: "raspberry_pi_4b"
 title: "Raspberry Pi 4 Model B Download"
 name: "Pi 4 Model B"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
 board_image: "raspberry_pi_4b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2019-6-24
+date_added: 2019-06-24
 features:
   - Wi-Fi
   - Bluetooth/BLE

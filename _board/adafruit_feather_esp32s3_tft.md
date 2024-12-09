@@ -4,12 +4,14 @@ board_id: "adafruit_feather_esp32s3_tft"
 title: "Feather ESP32-S3 TFT Download"
 name: "Feather ESP32-S3 TFT PSRAM"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5483"
+board_url:
+ - "https://www.adafruit.com/product/5483"
 board_image: "adafruit_feather_esp32s3_tft.jpg"
-date_added: 2022-6-9
+date_added: 2022-06-09
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_tft
 downloads_display: true
+download_instructions: https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

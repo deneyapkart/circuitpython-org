@@ -4,9 +4,10 @@ board_id: "catwan_usbstick"
 title: "CatWAN USB Stick Download"
 name: "CatWAN USB Stick"
 manufacturer: "Electronic Cats"
-board_url: "https://electroniccats.com/producto/catwan_usb-stick/"
+board_url:
+ - "https://electroniccats.com/producto/catwan_usb-stick/"
 board_image: "catwan_usbstick.jpg"
-date_added: 2019-4-2
+date_added: 2019-04-02
 family: atmel-samd
 features:
   - LoRa/Radio

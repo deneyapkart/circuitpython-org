@@ -4,9 +4,11 @@ board_id: "unexpectedmaker_feathers2_prerelease"
 title: "Unexpected Maker FeatherS2 Prerelease Download"
 name: "Unexpected Maker FeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/feathers2-esp32-s2"
+ - "https://www.adafruit.com/product/4769"
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
-date_added: 2020-6-14
+date_added: 2020-06-14
 family: esp32s2
 bootloader_id: unexpectedmaker_feathers2
 features:
@@ -49,5 +51,5 @@ You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io
 ## Purchase
 The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:
 
-* [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
+* [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2)
 * [Adafruit](https://www.adafruit.com/product/4769)

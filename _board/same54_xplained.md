@@ -4,9 +4,10 @@ board_id: "same54_xplained"
 title: "SAM E54 Xplained Pro Download"
 name: "SAM E54 Xplained Pro"
 manufacturer: "Microchip"
-board_url: "https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAME54-XPRO"
+board_url:
+ - "https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAME54-XPRO"
 board_image: "same54_xplained.jpg"
-date_added: 2020-6-28
+date_added: 2020-06-28
 family: atmel-samd
 bootloader_id: same54_xplained
 ---

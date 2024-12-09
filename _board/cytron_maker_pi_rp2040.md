@@ -4,10 +4,13 @@ board_id: "cytron_maker_pi_rp2040"
 title: "Maker Pi RP2040 Download"
 name: "Maker Pi RP2040"
 manufacturer: "Cytron Technologies"
-board_url: "https://www.cytron.io/p-maker-pi-rp2040"
+board_url:
+ - "https://www.cytron.io/p-maker-pi-rp2040"
+ - "https://www.adafruit.com/product/5129"
 board_image: "cytron_maker_pi_rp2040.jpg"
-date_added: 2021-5-31
-family: raspberrypi
+date_added: 2021-05-31
+family: rp2040
+download_instructions: https://github.com/CytronTechnologies/MAKER-PI-RP2040#circuitpython
 features:
   - Battery Charging
   - Speaker
@@ -52,4 +55,5 @@ CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo prog
 
 ## Purchase
 
+* [Adafruit](https://www.adafruit.com/product/5129)
 * [Cytron](https://www.cytron.io/p-maker-pi-rp2040)

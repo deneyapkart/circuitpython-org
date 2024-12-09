@@ -4,9 +4,9 @@ board_id: "cp_sapling_m0_spiflash"
 title: "CP Sapling M0 with SPI Flash Download"
 name: "CP Sapling M0 with SPI Flash"
 manufacturer: "Oak Development Technologies"
-board_url: "https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/"
+board_url:
 board_image: "cp_sapling_m0.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: atmel-samd
 bootloader_id: cp_sapling_m0
 features:
@@ -19,8 +19,6 @@ Finally, a tree that runs CircuitPython? YEP! Now you can get working in Circuit
 Providing quick and easy access to SPI and I2C (pins + Stemma/Qwiic connector) so you can get your project off the ground in no time.
 
 This board also comes with the SOIC-8 pads available on the bottom of the board to enable it to expand storage with SPI FLASH!
-
-
 
  * **ATSAMD21E18** 32-bit Cortex M0+ - 48 MHz 32 bit processor with **256KB Flash** and **32 KB RAM**
  * Native USB supported by every OS - can be used in CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.
@@ -35,6 +33,3 @@ This board also comes with the SOIC-8 pads available on the bottom of the board 
  * [Optional SOIC-8 SPI Flash chip on bottom]
  * **Reset switch** for starting your project code over or entering bootloader mode
 
-## Purchase
-
-* [Oak Dev Tech](https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/)

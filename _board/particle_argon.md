@@ -4,11 +4,15 @@ board_id: "particle_argon"
 title: "Argon Download"
 name: "Argon"
 manufacturer: "Particle"
-board_url: "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
+board_url:
+ - "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
+ - "https://www.adafruit.com/product/3997"
+ - "https://www.adafruit.com/product/3993"
 board_image: "particle_argon.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: particle_argon
+download_instructions: https://learn.adafruit.com/circuitpython-on-the-nrf52/build-flash-particle
 features:
   - Feather-Compatible
   - Battery Charging
@@ -17,7 +21,7 @@ features:
   - Breadboard-Friendly
 ---
 
-The Argon is a powerful Wi-Fi enabled development kit that can act as a standalone Wi-Fi endpoint. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes. 
+The Argon is a powerful Wi-Fi enabled development kit that can act as a standalone Wi-Fi endpoint. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.
 
 The Argon is great for connecting projects or as a gateway to connect an entire group of local endpoints. It's everything you love about the Photon, with more features like Bluetooth.
 

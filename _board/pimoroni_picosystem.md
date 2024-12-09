@@ -4,10 +4,11 @@ board_id: "pimoroni_picosystem"
 title: "PicoSystem Download"
 name: "PicoSystem"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/picosystem"
+board_url:
+ - "https://shop.pimoroni.com/products/picosystem"
 board_image: "pimoroni_picosystem.jpg"
-date_added: 2021-2-24
-family: raspberrypi
+date_added: 2021-02-24
+family: rp2040
 features:
   - Speaker
   - Battery Charging

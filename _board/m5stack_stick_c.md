@@ -4,9 +4,10 @@ board_id: "m5stack_stick_c"
 title: "M5StickC ESP32-PICO Mini IoT Download"
 name: "M5StickC ESP32-PICO Mini IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/m5stickc"
+board_url:
+ - "https://docs.m5stack.com/en/core/m5stickc"
 board_image: "m5stack_stick_c.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32
 features:
   - Wi-Fi

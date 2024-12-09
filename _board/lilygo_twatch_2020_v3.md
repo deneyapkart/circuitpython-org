@@ -4,13 +4,15 @@ board_id: "lilygo_twatch_2020_v3"
 title: "T-Watch 2020 V3 Download"
 name: "T-Watch 2020 V3"
 manufacturer: "LILYGO"
-board_url: "https://www.lilygo.cc/products/t-watch-2020-v3"
+board_url:
+ - "https://www.lilygo.cc/products/t-watch-2020-v3"
 board_image: "lilygo_twatch_2020_v3.jpg"
-date_added: 2023-5-3
+date_added: 2023-05-03
 family: esp32
 features:
   - Display
   - Bluetooth/BTLE
+  - Wi-Fi
   - Battery Charging
 ---
 

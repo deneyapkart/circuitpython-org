@@ -4,12 +4,13 @@ board_id: "nanopi_neo"
 title: "NanoPi NEO Download"
 name: "NanoPi NEO"
 manufacturer: "FriendlyElec"
-board_url: "http://nanopi.io/nanopi-neo.html"
+board_url:
+ - "http://nanopi.io/nanopi-neo.html"
 board_image: "nanopi_neo.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2022-1-4
+date_added: 2022-01-04
 features:
   - Ethernet
 

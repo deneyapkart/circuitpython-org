@@ -3,12 +3,14 @@ layout: download
 board_id: "lolin_s2_mini"
 title: "LOLIN S2 Mini Download"
 name: "LOLIN S2 Mini"
-manufacturer: "LOLIN"
-board_url: "https://www.wemos.cc/en/latest/s2/s2_mini.html"
+manufacturer: "Wemos"
+board_url:
+ - "https://www.wemos.cc/en/latest/s2/s2_mini.html"
 board_image: "lolin_s2_mini.jpg"
-date_added: 2021-9-3
+date_added: 2021-09-03
 family: esp32s2
 bootloader_id: lolin_s2_mini
+download_instructions: https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_circuitpython_s2.html
 features:
   - Wi-Fi
   - USB-C
@@ -65,6 +67,13 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 
 - There is an error on the v1.0.0 board silkscreen. GPIO12/13 should be reversed. Error is fixed without version change since late 2021.
 
+- There are no labeled SPI or I2C pins on the silkscreen. The following pins are configured by CircuitPython:
+  - SCL - GPIO35
+  - SDA - GPIO33
+  - SCK - GPIO7
+  - MOSI - GPIO11
+  - MISO - GPIO9
+
 ## Learn More
 
 * [Manufacturer Specifications](https://www.wemos.cc/en/latest/s2/s2_mini.html)
@@ -75,7 +84,7 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 ## Enter bootloader
 
 To enter UF2 Bootloader Version 0.10.2:
-* Click reset button 
+* Click reset button
 * Wait until LED is lit
 * Hold BOOT button
 

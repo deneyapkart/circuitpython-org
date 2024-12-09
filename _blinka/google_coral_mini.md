@@ -4,12 +4,13 @@ board_id: "google_coral_mini"
 title: "Google Coral Dev Board Mini"
 name: "Google Coral Dev Board Mini"
 manufacturer: "Google"
-board_url: "https://coral.ai/products/dev-board-mini/"
+board_url:
+ - "https://coral.ai/products/dev-board-mini/"
 board_image: "google_coral_mini.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
 downloads_display: true
 blinka: true
-date_added: 2020-12-7
+date_added: 2020-12-07
 features:
   - Wi-Fi
   - Bluetooth/BLE

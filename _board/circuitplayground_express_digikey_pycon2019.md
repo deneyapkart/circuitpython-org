@@ -4,11 +4,13 @@ board_id: "circuitplayground_express_digikey_pycon2019"
 title: "Circuit Playground Express Digi-Key PyCon 2019 Download"
 name: "Circuit Playground Express Digi-Key"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com"
+board_url:
+ - "https://github.com/adafruit/PyCon2019"
 board_image: "circuitplayground_express_digikey_pycon2019.jpg"
-date_added: 2019-4-13
+date_added: 2019-04-13
 family: atmel-samd
 bootloader_id: circuitplay_m0
+download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
 features:
   - Speaker
   - Solder-Free Alligator Clip

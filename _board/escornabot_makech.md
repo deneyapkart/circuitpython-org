@@ -4,9 +4,10 @@ board_id: "escornabot_makech"
 title: "Escornabot Makech Download"
 name: "Escornabot Makech"
 manufacturer: "Electronic Cats"
-board_url: "https://github.com/ElectronicCats/escornabot"
+board_url:
+ - "https://github.com/ElectronicCats/escornabot"
 board_image: "escornabot_makech.jpg"
-date_added: 2019-5-25
+date_added: 2019-05-25
 family: atmel-samd
 features:
   - Robotics

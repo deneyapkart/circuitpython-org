@@ -4,10 +4,12 @@ board_id: "swan_r5"
 title: "Swan R5 Download"
 name: "Swan R5"
 manufacturer: "Blues Wireless"
-board_url: "https://blues.io/products/swan"
+board_url:
+ - "https://blues.io/products/swan"
 board_image: "swan_r5.jpg"
-date_added: 2021-9-29
+date_added: 2021-09-29
 family: stm
+download_instructions: https://dev.blues.io/swan/using-circuitpython-with-swan/
 features:
   - Feather-Compatible
   - Battery Charging

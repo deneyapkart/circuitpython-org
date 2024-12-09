@@ -4,12 +4,14 @@ board_id: "winterbloom_sol"
 title: "Winterbloom Sol Download"
 name: "Winterbloom Sol"
 manufacturer: "Alethea Flowers"
-board_url: "https://winterbloom.com"
+board_url:
+ - "https://winterbloom.com"
 board_image: "sol.jpg"
 downloads_display: true
 blinka: false
-date_added: 2019-11-7
+date_added: 2019-11-07
 family: atmel-samd
+download_instructions: https://sol.wntr.dev/
 bootloader_id: winterbloom_sol
 ---
 

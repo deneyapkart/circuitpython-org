@@ -4,9 +4,10 @@ board_id: "electronut_labs_blip"
 title: "Blip Download"
 name: "Blip"
 manufacturer: "Electronut Labs"
-board_url: "https://gitlab.com/electronutlabs-public/ElectronutLabs-blip"
+board_url:
+ - "https://gitlab.com/electronutlabs-public/ElectronutLabs-blip"
 board_image: "electronut_labs_blip.png"
-date_added: 2019-5-23
+date_added: 2019-05-23
 family: nrf52840
 downloads_display: true
 features:

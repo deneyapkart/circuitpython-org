@@ -4,12 +4,13 @@ board_id: "espruino_pico"
 title: "Espruino Pico Download"
 name: "Espruino Pico"
 manufacturer: "Espruino"
-board_url: "https://www.adafruit.com/product/2621"
+board_url:
+ - "https://www.adafruit.com/product/2621"
 board_image: "espruino_pico.jpg"
-date_added: 2020-2-7
+date_added: 2020-02-07
 family: stm
 features:
-
+  - Castellated Pads
 ---
 
 Control Electronics quickly and easily with a tiny USB stick that runs JavaScript - introducing the **Espruino Pico**! [Dig in to the JavaScript of things, with a mini version of the popular Espruino board we already carry](https://www.adafruit.com/product/1887)

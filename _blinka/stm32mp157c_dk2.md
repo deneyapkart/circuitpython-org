@@ -4,12 +4,13 @@ board_id: "stm32mp157c_dk2"
 title: "STM32MP1 Discovery Kit 2 Download"
 name: "STM32MP1 Discovery Kit 2"
 manufacturer: "STMicroelectronics"
-board_url: "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
+board_url:
+ - "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
 board_image: "stm32mp157c_dk2.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-9-10
+date_added: 2020-09-10
 features:
   - Wi-Fi
   - Bluetooth/BLE
@@ -37,7 +38,7 @@ Additionally, the STM32MP157C-DK2 Discovery kit features an LCD display with a t
 - 4 user LEDs
 - 2 user and reset push-buttons, 1 wake-up button
 - 5 V / 3 A USB-C power supply input (not provided)
-- Board connectors: 
+- Board connectors:
   - Ethernet RJ45
   - 4x USB Host Type-A and USB-C
   - HDMI Stereo headset jack including analog microphone input
@@ -51,4 +52,4 @@ Additionally, the STM32MP157C-DK2 Discovery kit features an LCD display with a t
 - Bluetooth Low Energy 4.1
 
 ## Purchase
-* [STMicroelectronics](https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32mp157c-dk2.html)
+* [STMicroelectronics](http://estore.st.com/en/stm32mp157f-dk2-cpn.html)

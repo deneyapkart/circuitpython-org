@@ -4,10 +4,12 @@ board_id: "adafruit_qt2040_trinkey"
 title: "Trinkey QT2040 Download"
 name: "Trinkey QT2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5056"
+board_url:
+ - "https://www.adafruit.com/product/5056"
 board_image: "adafruit_qt2040_trinkey.jpg"
-date_added: 2021-5-26
-family: raspberrypi
+date_added: 2021-05-26
+family: rp2040
+download_instructions: https://learn.adafruit.com/adafruit-trinkey-qt2040/circuitpython
 features:
 
 ---

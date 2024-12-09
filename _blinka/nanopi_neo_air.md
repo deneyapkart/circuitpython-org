@@ -4,12 +4,13 @@ board_id: "nanopi_neo_air"
 title: "NanoPi NEO Air Download"
 name: "NanoPi NEO Air"
 manufacturer: "FriendlyElec"
-board_url: "http://nanopi.io/nanopi-neo-air.html"
+board_url:
+ - "http://nanopi.io/nanopi-neo-air.html"
 board_image: "nanopi_neo_air.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2021-1-20
+date_added: 2021-01-20
 features:
   - Wi-Fi
   - Bluetooth/BLE

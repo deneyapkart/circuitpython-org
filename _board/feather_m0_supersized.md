@@ -4,9 +4,10 @@ board_id: "feather_m0_supersized"
 title: "Feather M0 Supersized Download"
 name: "Feather M0 Supersized"
 manufacturer: "Dave Astels"
-board_url: ""
+board_url:
+ - "https://blog.adafruit.com/2017/10/27/supersizing-the-feather-m0-express-with-8mb-spi-flash-memory-s25fl064l/"
 board_image: "feather_m0_supersized.jpg"
-date_added: 2019-3-19
+date_added: 2019-03-19
 family: atmel-samd
 bootloader_id: feather_m0_express
 features:

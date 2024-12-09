@@ -4,10 +4,11 @@ board_id: "pimoroni_pga2040"
 title: "PGA2040 Download"
 name: "PGA2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/pga2040"
+board_url:
+ - "https://shop.pimoroni.com/products/pga2040"
 board_image: "pimoroni_pga2040.jpg"
-date_added: 2021-6-10
-family: raspberrypi
+date_added: 2021-06-10
+family: rp2040
 ---
 
 A minimal RP2040 breakout board wrangled into a Pin Grid Array, with a maximal dash of retraux style. PGA2040 has no USB port, LED or buttons but it does have an embed-friendly 21mm square footprint, 8MB of flash and lots of exposed RP2040 pins to play with.

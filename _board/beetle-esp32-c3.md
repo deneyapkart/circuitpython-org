@@ -4,13 +4,15 @@ board_id: "beetle-esp32-c3"
 title: "DFRobot Beetle ESP32-C3 Download"
 name: "DFRobot Beetle ESP32-C3"
 manufacturer: "DFRobot"
-board_url: "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3"
+board_url:
+ - "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3"
 board_image: "beetle-esp32-c3.png"
 date_added: 2022-07-17
 downloads_display: true
 blinka: false
 family: esp32c3
 bootloader_id: lolin_c3_mini
+download_instructions: https://github.com/adafruit/circuitpython/tree/main/ports/espressif#building-and-flashing
 features:
   - Battery Charging
   - Bluetooth/BTLE

@@ -4,11 +4,13 @@ board_id: "pyportal_pynt"
 title: "PyPortal Pynt Download"
 name: "PyPortal Pynt"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4465"
+board_url:
+ - "https://www.adafruit.com/product/4465"
 board_image: "pyportal_pynt.jpg"
 date_added: 2019-12-11
 family: atmel-samd
 bootloader_id: pyportal_m4
+download_instructions: https://learn.adafruit.com/adafruit-pyportal/install-circuitpython
 features:
   - Display
   - Speaker

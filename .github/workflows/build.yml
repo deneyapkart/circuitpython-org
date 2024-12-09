@@ -7,6 +7,7 @@ on:
   schedule:
     - cron: 0 10 * * *
   pull_request:
+  workflow_dispatch:
 
 jobs:
   check-repo-owner:
@@ -27,14 +28,14 @@ jobs:
     # be limited (they run on all forks' default branches).
     if: startswith(github.repository, 'adafruit/')
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true
     - name: Update Awesome CircuitPython
       run: |
         (cd awesome-circuitpython && git fetch origin main:main && git checkout main)
     - name: Set up Python 3.x
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.x
     - uses: ruby/setup-ruby@v1
@@ -43,17 +44,17 @@ jobs:
         bundler-cache: true
     - name: Install Dependencies
       run: |
-        gem install bundler:1.17.3
+        gem install bundler:2.2.26
         bundle install --full-index
         pip install python-frontmatter pillow python-dateutil
     - name: Check feature names and other data
-      run: python3 check-boards.py
+      run: python3 tools/check-boards.py
     - name: Check Image Dimensions
-      run: python3 check-images.py
+      run: python3 tools/check-images.py
     - name: Make Directory For Report Files
       run: mkdir -p json
     - name: Generate ESP32 Boards JSON
-      run: python3 generate-board-info.py -o json/esp32_boards.json
+      run: python3 tools/generate-board-info.py -o json/esp32_boards.json
     - name: Check For Files
       run: |
         ls json
@@ -66,9 +67,11 @@ jobs:
       run: |
         bundle exec jekyll build -d build
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           cname: circuitpython.org
+          user_name: ${{ secrets.ADABOT_GITHUB_USER }}
+          user_email: ${{ secrets.ADABOT_GITHUB_EMAIL }}
       if: github.event_name != 'pull_request'

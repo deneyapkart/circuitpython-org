@@ -4,12 +4,13 @@ board_id: "onion_omega2plus"
 title: "Onion Omega2+"
 name: "Onion Omega2+"
 manufacturer: "Onion Corporation"
-board_url: "https://onion.io/store/omega2p/"
+board_url:
+ - "https://onion.io/store/omega2p/"
 board_image: "onion_omega2plus.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-4-22
+date_added: 2020-04-22
 features:
   - Wi-Fi
 ---

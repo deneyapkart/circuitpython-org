@@ -4,11 +4,12 @@ board_id: "beaglebone_blue"
 title: "BeagleBone Blue Download"
 name: "BeagleBone Blue"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/blue"
+board_url:
+ - "https://beagleboard.org/blue"
 board_image: "beaglebone_blue.jpg"
 downloads_display: true
 blinka: true
-date_added: 2023-5-4
+date_added: 2023-05-04
 features:
   - Wi-Fi
   - Bluetooth/BLE

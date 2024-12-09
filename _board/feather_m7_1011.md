@@ -4,10 +4,12 @@ board_id: "feather_m7_1011"
 title: "Feather M7 1011 Download"
 name: "Feather M7 1011"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4950"
+board_url:
+ - "https://www.adafruit.com/product/4950"
 board_image: "feather_m7_1011.jpg"
-date_added: 2020-2-27
+date_added: 2020-02-27
 family: mimxrt10xx
+download_instructions: https://learn.adafruit.com/adafruit-metro-m7-with-airlift/install-circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

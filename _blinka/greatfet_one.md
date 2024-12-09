@@ -4,11 +4,12 @@ board_id: "greatfet_one"
 title: "GreatFET One Download"
 name: "GreatFET One"
 manufacturer: "Great Scott Gadgets"
-board_url: "https://www.adafruit.com/product/4234"
+board_url:
+ - "https://www.adafruit.com/product/4234"
 board_image: "greatfet_one.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-15
+date_added: 2020-05-15
 features:
   - 40-pin GPIO
 ---

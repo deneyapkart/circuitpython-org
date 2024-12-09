@@ -4,16 +4,18 @@ board_id: "adafruit_slide_trinkey_m0"
 title: "Slide Trinkey - SAMD21 Download"
 name: "Slide Trinkey - SAMD21"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5021"
+board_url:
+ - "https://www.adafruit.com/product/5021"
 board_image: "adafruit_slide_trinkey_m0.jpg"
-date_added: 2021-4-14
+date_added: 2021-04-14
 family: atmel-samd
 bootloader_id: slide_trinkey_m0
+download_instructions: https://learn.adafruit.com/adafruit-slider-trinkey/circuitpython
 features:
 
 ---
 
-It's half USB Key, half Adafruit Trinket, half mini slide pot*...* it's **Slider Trinkey**, the circuit board with a Trinket M0 heart, NeoPixel glow, and a 35mm long 10KΩ slide potentiometer. 
+It's half USB Key, half Adafruit Trinket, half mini slide pot*...* it's **Slider Trinkey**, the circuit board with a Trinket M0 heart, NeoPixel glow, and a 35mm long 10KΩ slide potentiometer.
 
 The PCB is designed to slip into any USB A port on a computer or laptop. There's an ATSAMD21 microcontroller on board with just enough circuitry to keep it happy. One pin of the microcontroller connects to the middle of the slide potentiometer as an analog input. Another connects to two NeoPixel LEDs. The third pin can be used as a capacitive touch input. A reset button lets you enter bootloader mode if necessary. That's it!
 

@@ -4,11 +4,13 @@ board_id: "itsybitsy_m0_express"
 title: "ItsyBitsy M0 Express Download"
 name: "ItsyBitsy M0 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3727"
+board_url:
+ - "https://www.adafruit.com/product/3727"
 board_image: "itsybitsy_m0_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: itsybitsy_m0
+download_instructions: https://learn.adafruit.com/introducing-itsy-bitsy-m0/circuitpython
 features:
   - Breadboard-Friendly
 ---

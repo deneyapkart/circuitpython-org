@@ -4,11 +4,15 @@ board_id: "circuitplayground_express_4h"
 title: "Circuit Playground Express 4-H Download"
 name: "Circuit Playground Express 4-H"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com"
+board_url:
+ - "https://www.adafruit.com/product/4180"
+ - "https://www.adafruit.com/product/4241"
+ - "https://www.adafruit.com/product/4263"
 board_image: "circuitplayground_express_4h.jpg"
-date_added: 2019-4-13
+date_added: 2019-04-13
 family: atmel-samd
 bootloader_id: circuitplay_m0
+download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
 features:
   - Speaker
   - Solder-Free Alligator Clip

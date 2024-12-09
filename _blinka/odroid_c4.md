@@ -1,14 +1,15 @@
 ---
 layout: download
 board_id: "odroid_c4"
-title: "Odroid C4 Download"
-name: "Odroid C4"
+title: "ODROID C4 Download"
+name: "ODROID C4"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-c4/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-c4/"
 board_image: "odroid_c4.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-15
+date_added: 2020-05-15
 features:
   - Ethernet
   - HDMI/DisplayPort

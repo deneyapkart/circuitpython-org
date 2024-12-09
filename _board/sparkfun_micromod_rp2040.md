@@ -4,10 +4,12 @@ board_id: "sparkfun_micromod_rp2040"
 title: "MicroMod RP2040 Processor Download"
 name: "MicroMod RP2040 Processor"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/17720"
+board_url:
+ - "https://www.sparkfun.com/products/17720"
 board_image: "sparkfun_micromod_rp2040.jpg"
-date_added: 2021-5-26
-family: raspberrypi
+date_added: 2021-05-26
+family: rp2040
+download_instructions: https://learn.sparkfun.com/tutorials/micromod-rp2040-processor-board-hookup-guide
 features:
 ---
 

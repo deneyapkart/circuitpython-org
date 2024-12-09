@@ -4,9 +4,10 @@ board_id: "m5stack_core2"
 title: "Core2 ESP32 IoT Download"
 name: "Core2 ESP32 IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/core2"
+board_url:
+ - "https://docs.m5stack.com/en/core/core2"
 board_image: "m5stack_core2.jpg"
-date_added: 2023-5-4
+date_added: 2023-05-04
 family: esp32
 features:
   - Speaker

@@ -4,10 +4,12 @@ board_id: "adafruit_feather_rp2040"
 title: "Feather RP2040 Download"
 name: "Feather RP2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4884"
+board_url:
+ - "https://www.adafruit.com/product/4884"
 board_image: "adafruit_feather_rp2040.jpg"
-date_added: 2021-1-21
-family: raspberrypi
+date_added: 2021-01-21
+family: rp2040
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-pico/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

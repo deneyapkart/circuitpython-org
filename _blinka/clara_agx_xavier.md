@@ -4,11 +4,12 @@ board_id: "clara_agx_xavier"
 title: "Clara AGX Xavier Download"
 name: "Clara AGX Xavier"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/clara-agx-devkit"
+board_url:
+ - "https://developer.nvidia.com/clara-agx-devkit"
 board_image: "clara_agx_xavier.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-10-6
+date_added: 2020-10-06
 features:
 
 ---

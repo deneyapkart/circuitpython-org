@@ -4,9 +4,10 @@ board_id: "gb_m4"
 title: "Python powered GameBoy-compatible cartridge Download"
 name: "Python powered GameBoy-compatible cartridge"
 manufacturer: "Scott Shawcroft"
-board_url: "https://github.com/chickadee-tech/pygb"
+board_url:
+ - "https://github.com/chickadee-tech/pygb"
 board_image: "gb_m4.jpg"
-date_added: 2019-4-5
+date_added: 2019-04-05
 family: atmel-samd
 ---
 

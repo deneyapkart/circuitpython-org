@@ -4,11 +4,15 @@ board_id: "circuitplayground_express_displayio"
 title: "Circuit Playground Express + Displayio Download"
 name: "Circuit Playground Express + Displayio"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4367"
+ - "https://www.adafruit.com/product/4869"
+ - "https://www.adafruit.com/product/4428"
 board_image: "circuitplayground_express_displayio.jpg"
 date_added: 2019-10-17
 family: atmel-samd
 bootloader_id: circuitplay_m0
+download_instructions: https://learn.adafruit.com/adafruit-tft-gizmo/circuitpython-displayio-quickstart
 features:
   - Speaker
   - Display

@@ -4,10 +4,12 @@ board_id: "pimoroni_plasma2040"
 title: "Plasma 2040 Download"
 name: "Plasma 2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/plasma-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/plasma-2040"
 board_image: "pimoroni_plasma2040.jpg"
 date_added: 2021-08-11
-family: raspberrypi
+family: rp2040
+download_instructions: https://learn.pimoroni.com/article/plasma-2040#circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

@@ -4,9 +4,10 @@ board_id: "feather_m0_express_crickit"
 title: "Feather M0 Express + Crickit Download"
 name: "Feather M0 Express + Crickit"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3343"
 board_image: "feather_m0_express_crickit.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: feather_m0_express
 features:

@@ -1,15 +1,16 @@
 ---
 layout: download
 board_id: "odroid_c2"
-title: "Odroid C2 Download"
-name: "Odroid C2"
+title: "ODROID C2 Download"
+name: "ODROID C2"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-c2/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-c2/"
 board_image: "odroid_c2.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libaries-linux-odroid-c2"
 downloads_display: true
 blinka: true
-date_added: 2019-6-17
+date_added: 2019-06-17
 features:
   - Ethernet
   - HDMI/DisplayPort

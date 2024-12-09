@@ -4,18 +4,20 @@ board_id: "radxa_rock_3a"
 title: "Rock 3A Download"
 name: "Rock 3A"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock3/3a"
+board_url:
+ - "https://wiki.radxa.com/Rock3/3a"
 board_image: "radxa_rock_3a.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-5
+date_added: 2023-05-05
 features:
   - Wi-Fi
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+  - NVME/M.2 Connector
 ---
 
 ROCK 3A is an improved version of the ROCK Pi 4. ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3 supports USB PD and QC powering.

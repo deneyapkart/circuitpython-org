@@ -10,7 +10,8 @@
 {% assign bootloader_version = bootloaders[page.family].version %}
 {% assign bootloader_id = page.bootloader_id %}
 {% assign releases = stable | concat: unstable %}
-{% capture board_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
+{% assign bootloader_instructions = page.bootloader_nonstandard_entry_instructions %}
+{% capture download_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
     <h3>CircuitPython {{ version.version }}</h3>
@@ -38,9 +39,20 @@
       Your testing is invaluable: it helps us uncover and find issues quickly.
     </p>
     {% endif %}
-    <p>
-      <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
-    </p>
+    {% if page.family == 'nrf52840' %}
+      <p>
+        <b>On nRF boards, CircuitPython 8.2.0 and later require UF2 bootloader version 0.6.1 or later.
+        Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</b>
+      </p>
+    {% endif %}
+    <div class="release-details">
+      <p>
+        <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
+      </p>
+      {% if page.download_instructions != nil and page.download_instructions != "" %}
+        <a class="download-button install-instructions-button" target="_blank" href="{{ page.download_instructions }}">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
     <div class="download-details">
       {% comment %}
       Create a list of language codes and names so it can be sorted.
@@ -112,7 +124,7 @@
               {% comment %} Unnecessary ? {% endcomment %}
               {% continue %}
             {% endif %}
-            {% capture no_extension %}{{ board_url }}/{{ language_code }}/adafruit-circuitpython-{{ board_id }}-{{ language_code }}-{{ version.version }}{% endcapture %}
+            {% capture no_extension %}{{ download_url }}/{{ language_code }}/adafruit-circuitpython-{{ board_id }}-{{ language_code }}-{{ version.version }}{% endcapture %}
             {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
             <option value="{{ files }}"
                     data-files="{{ files }}"
@@ -124,13 +136,14 @@
         </select>
       </label>
       <div class="download-buttons">
-      {% for extension in version.extensions %}
-        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      {% assign reverse_extensions = version.extensions | reverse %}
+      {% for extension in reverse_extensions %}
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
-      {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
+      {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' or page.family == 'esp32c6' %}
         <button is="cp-install-button" class="installer-button" boardid="{{ board_id }}"
         {% for extension in version.extensions %}
-            {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
+            {{ extension }}file="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
         {% endfor %}
         version="{{ version.version }}"
         >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
@@ -140,13 +153,36 @@
     {% if version.modules %}
     <p>
         Built-in modules available:
-        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.modules | join: ', ' }}</span>
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
+          {% for module_name in version.modules %}
+          {% if module_name contains "." %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name | split: '.' | first }}/#{{ module_name }}">
+          {% else %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
+          {% endif %}
+            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
     </p>
     {% endif %}
     {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
     <p>
         Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
-        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.frozen_libraries | join: ', ' }}</span>
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
+          {% for module_name in version.frozen_libraries %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/{{ module_name | split: 'adafruit_' | last }}">
+            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
+    </p>
+    {% endif %}
+    {% if page.features %}
+    <p>Features:
+      <span class="features-list">
+      {% for feature in page.features %}
+        <a class="library-link" href="/downloads?features={{ feature }}">{{feature}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      </span>
     </p>
     {% endif %}
   </div>
@@ -253,11 +289,15 @@ By the way, boolean operation precedence is right to left! (yeesh)
    </ul>
   </li>
  </ul>
- <p>
+ {% if bootloader_instructions == nil %}
+  <p>
    After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
    On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
    again before the purple goes away. On other boards, consult the board documentation.
    </p>
+  {% else %}
+  <p>{{ bootloader_instructions }}</p>
+  {% endif %}
  <p>
    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
    Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
@@ -287,9 +327,14 @@ By the way, boolean operation precedence is right to left! (yeesh)
 
   {% if page.family == 'nrf52840' %}
   <p>
-    Updating the bootloader on nRF52840 boards is an involved process right now.
-    Follow the instructions in this
-    <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/blob/master/README.md">README</a>.
+    <b>On nRF boards, CircuitPython 8.2.0 and later require UF2 bootloader version 0.6.1 or later.
+      Older bootloaders cannot load the firmware.
+    To check the version of your board's bootloader,
+      look at <i>INFO_UF2.TXT</i> when the <i>BOOT</i> drive is present.
+    </b>
+    To update the bootloader, refer to the "Update Bootloader" page in the guide for
+    your board, or start with
+    <a href="https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader">this page</a>.
   </p>
   <p>
     After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.

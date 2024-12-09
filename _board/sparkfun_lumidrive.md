@@ -4,10 +4,12 @@ board_id: "sparkfun_lumidrive"
 title: "LumiDrive Download"
 name: "LumiDrive"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/14779"
 board_image: "sparkfun_lumidrive_01.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
+download_instructions: https://learn.sparkfun.com/tutorials/lumidrive-hookup-guide
 features:
   - Battery Charging
   - USB-C

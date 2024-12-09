@@ -4,11 +4,13 @@ board_id: "adafruit_rotary_trinkey_m0"
 title: "Rotary Trinkey - SAMD21 Download"
 name: "Rotary Trinkey - SAMD21"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4964"
+board_url:
+ - "https://www.adafruit.com/product/4964"
 board_image: "adafruit_rotary_trinkey_m0.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: atmel-samd
 bootloader_id: rotary_trinkey_m0
+download_instructions: https://learn.adafruit.com/adafruit-rotary-trinkey/circuitpython
 features:
 
 ---

@@ -4,9 +4,10 @@ board_id: "m5stack_core_fire"
 title: "M5Stack FIRE IoT Download"
 name: "M5Stack FIRE IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/fire_v2.6"
+board_url:
+ - "https://docs.m5stack.com/en/core/fire_v2.6"
 board_image: "m5stack_core_fire.jpg"
-date_added: 2022-11-1
+date_added: 2022-11-01
 family: esp32
 tags:
   - Core Fire

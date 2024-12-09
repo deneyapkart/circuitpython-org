@@ -4,11 +4,12 @@ board_id: "jetson_xavier"
 title: "Jetson AGX Xavier Dev Kit"
 name: "Jetson AGX Xavier Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit"
+board_url:
+ - "https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit"
 board_image: "jetson_xavier.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Ethernet
   - HDMI/DisplayPort

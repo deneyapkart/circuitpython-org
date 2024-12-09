@@ -4,9 +4,10 @@ board_id: "meowmeow"
 title: "Meow Meow Download"
 name: "Meow Meow"
 manufacturer: "Electronic Cats"
-board_url: "https://electroniccats.com/store/meowmeow/"
+board_url:
+ - "https://electroniccats.com/store/meowmeow/"
 board_image: "meowmeow.jpg"
-date_added: 2019-4-1
+date_added: 2019-04-01
 family: atmel-samd
 bootloader_id: meowmeow
 features:

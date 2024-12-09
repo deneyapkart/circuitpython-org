@@ -5,10 +5,12 @@ board_alias: "adafruit_feather_rp2040_rfm"
 title: "Feather RP2040 RFM9x Board Download"
 name: "Feather RP2040 RFM9x"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5714"
+board_url:
+ - "https://www.adafruit.com/product/5714"
 board_image: "adafruit_feather_rp2040_rfm9x.jpg"
-date_added: 2023-4-4
-family: raspberrypi
+date_added: 2023-04-04
+family: rp2040
+download_instructions: https://learn.adafruit.com/feather-rp2040-rfm95/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

@@ -4,12 +4,13 @@ board_id: "raspberry_pi_2b"
 title: "Raspberry Pi 2 Model B Download"
 name: "Pi 2 Model B"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-2-model-b/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-2-model-b/"
 board_image: "raspberry_pi_2b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2019-6-17
+date_added: 2019-06-17
 features:
   - Ethernet
   - HDMI/DisplayPort

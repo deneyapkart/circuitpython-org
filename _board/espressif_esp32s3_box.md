@@ -4,13 +4,15 @@ board_id: "espressif_esp32s3_box"
 title: "ESP32-S3 Box - 16MB Flash, 8MB PSRAM"
 name: "ESP32-S3 Box"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5290"
+board_url:
+ - "https://www.adafruit.com/product/5290"
 board_image: "espressif_esp32s3_box.jpg"
 bootloader_id: espressif_esp32s3_box
 date_added: 2020-05-15
 family: esp32s3
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
   - Display
   - Speaker

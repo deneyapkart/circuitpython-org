@@ -4,12 +4,13 @@ board_id: "pine64"
 title: "Pine A64+ Download"
 name: "Pine A64+"
 manufacturer: "Pine64"
-board_url: "https://www.pine64.org/devices/single-board-computers/pine-a64/"
+board_url:
+ - "https://www.pine64.org/devices/single-board-computers/pine-a64/"
 board_image: "pine64.png"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-1-9
+date_added: 2020-01-09
 features:
   - Wi-Fi
   - Bluetooth/BLE

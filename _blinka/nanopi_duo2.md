@@ -4,12 +4,13 @@ board_id: "nanopi_duo2"
 title: "NanoPi Duo2 Download"
 name: "NanoPi Duo2"
 manufacturer: "FriendlyElec"
-board_url: "http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2"
+board_url:
+ - "http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2"
 board_image: "nanopi_duo2.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2021-2-5
+date_added: 2021-02-05
 features:
   - Wi-Fi
   - Bluetooth/BLE

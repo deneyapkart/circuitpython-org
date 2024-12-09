@@ -4,10 +4,12 @@ board_id: "sparkfun_nrf52840_mini"
 title: "nRF52840 Mini Download"
 name: "Pro nRF52840 Mini"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/15025"
 board_image: "sparkfun_nrf52840_mini-01.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
+download_instructions: https://learn.sparkfun.com/tutorials/nrf52840-development-with-arduino-and-circuitpython#circuitpython-installation
 features:
   - Battery Charging
   - Bluetooth/BTLE

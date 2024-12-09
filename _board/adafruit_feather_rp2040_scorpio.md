@@ -4,10 +4,12 @@ board_id: "adafruit_feather_rp2040_scorpio"
 title: "Feather RP2040 SCORPIO Download"
 name: "Feather RP2040 SCORPIO"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5650"
+board_url:
+ - "https://www.adafruit.com/product/5650"
 board_image: "adafruit_feather_rp2040_scorpio.jpg"
 date_added: 2022-12-23
-family: raspberrypi
+family: rp2040
+download_instructions: https://learn.adafruit.com/introducing-feather-rp2040-scorpio/install-circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

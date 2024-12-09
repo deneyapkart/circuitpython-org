@@ -4,12 +4,13 @@ board_id: "orange_pi_lite"
 title: "Orange Pi Lite Download"
 name: "Orange Pi Lite"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepilite/"
+board_url:
+ - "http://www.orangepi.org/orangepilite/"
 board_image: "orange_pi_lite.png"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
-date_added: 2020-1-18
+date_added: 2020-01-18
 features:
   - Wi-Fi
   - Bluetooth/BLE

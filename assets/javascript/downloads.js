@@ -350,18 +350,38 @@ function filterResults() {
     } else {
       download.style.display = 'block';
       board_count++;
+      // exact tag match re-order
+      if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
+        let searched = downloadsSearch.searchTerm.toLowerCase();
+        let tags = download.getAttribute("data-tags").split(",");
+        if (searched !== "" && tags.indexOf(searched) >= 0) {
+          let parent = download.parentElement;
+          parent.removeChild(download);
+          parent.prepend(download);
+        }
+      }
     }
   });
   document.getElementById("board_count").innerHTML = board_count;
 }
 
 function handleSortResults(event) {
+  let searched;
+  if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
+    searched = downloadsSearch.searchTerm.toLowerCase();
+  }
   var sortType = event.target.value;
   setURL('sort-by', sortType);
   var downloads = document.querySelector('.downloads-section');
   Array.prototype.slice.call(downloads.children)
     .map(function (download) { return downloads.removeChild(download); })
     .sort(function (a, b) {
+      // exact tag match re-order
+      if (searched !== undefined && searched !== "" &&
+          a.dataset.tags.split(",").indexOf(searched) >= 0){
+
+        return -2;
+      }
       switch(sortType) {
         case 'alpha-asc':
           return a.dataset.name.localeCompare(b.dataset.name);
@@ -388,54 +408,26 @@ function setFeaturesChecked() {
 }
 
 function shouldDisplayDownload(download, displayedManufacturers, displayedMcufamilies, displayedFeatures) {
-  var shouldFilterFeatures = downloadsSearch.featuresChecked;
-  var shouldFilterManufacturers = displayedManufacturers.length > 0;
-  var shouldFilterMcufamilies = displayedMcufamilies.length > 0;
-  var shouldDisplay = false;
+  const shouldFilterFeatures = downloadsSearch.featuresChecked;
+  const shouldFilterManufacturers = displayedManufacturers.length > 0;
+  const shouldFilterMcufamilies = displayedMcufamilies.length > 0;
 
-  var id = download.dataset.id;
+  const boardId = download.dataset.id;
 
-  if (shouldFilterManufacturers) {
-    if (displayedManufacturers.includes(id)) {
-      if (shouldFilterMcufamilies) {
-        if (displayedMcufamilies.includes(id)) {
-          if (shouldFilterFeatures) {
-            if (displayedFeatures.includes(id)) {
-              shouldDisplay = true;
-            }
-          } else {
-            shouldDisplay = true;
-	  }
-	}
-      } else if (shouldFilterFeatures) {
-          if (displayedFeatures.includes(id)) {
-            shouldDisplay = true;
-          }
-      } else {
-        shouldDisplay = true;
-      }
-    }
-  } else if (shouldFilterMcufamilies) {
-    if (displayedMcufamilies.includes(id)) {
-      if (shouldFilterFeatures) {
-        if (displayedFeatures.includes(id)) {
-          shouldDisplay = true;
-        }
-      } else {
-        shouldDisplay = true;
-      }
-    }
-  } else if (shouldFilterFeatures) {
-    if (displayedFeatures.includes(id)) {
-      shouldDisplay = true;
-    }
-  } else {
-    shouldDisplay = true;
+  if (shouldFilterManufacturers && !displayedManufacturers.includes(boardId)) {
+    return false;
   }
 
-  if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
-    var regex = new RegExp(downloadsSearch.searchTerm, "gi");
-    var dataFields = [
+  if (shouldFilterMcufamilies && !displayedMcufamilies.includes(boardId)) {
+    return false;
+  }
+
+  if (shouldFilterFeatures && !displayedFeatures.includes(boardId)) {
+    return false;
+  }
+
+  if (downloadsSearch.searchTerm) {
+    const downloadData = [
         download.dataset.name,
         download.dataset.id,
         download.dataset.manufacturer,
@@ -443,13 +435,19 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
         download.dataset.features,
         download.dataset.tags,
         download.dataset.modules,
-    ];
+    ].join(" ").toLowerCase();
 
-    var haystack = dataFields.join(" ");
-    shouldDisplay = haystack.match(regex);
+
+    for (const term of downloadsSearch.searchTerm.toLowerCase().split(" ")) {
+        if (!
+            (downloadData.includes(term) ||
+             downloadData.includes(term.replaceAll("-", "")))) {
+            return false;
+        }
+    }
   }
 
-  return shouldDisplay;
+  return true;
 }
 
 function appendFilterTag(type, name) {

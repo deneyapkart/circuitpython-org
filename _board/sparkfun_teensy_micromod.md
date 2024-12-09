@@ -4,9 +4,10 @@ board_id: "sparkfun_teensy_micromod"
 title: "MicroMod Teensy Processor Download"
 name: "MicroMod Teensy Processor"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/16402"
+board_url:
+ - "https://www.sparkfun.com/products/16402"
 board_image: "sparkfun_teensy_micromod.jpg"
-date_added: 2022-5-3
+date_added: 2022-05-03
 family: mimxrt10xx
 
 ---

@@ -4,12 +4,13 @@ board_id: "orange_pi_2"
 title: "Orange Pi 2 Download"
 name: "Orange Pi 2"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepi2/"
+board_url:
+ - "http://www.orangepi.org/orangepi2/"
 board_image: "orange_pi_2.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
-date_added: 2020-5-11
+date_added: 2020-05-11
 features:
   - Wi-Fi
   - Ethernet

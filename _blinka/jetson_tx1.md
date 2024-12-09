@@ -4,11 +4,12 @@ board_id: "jetson_tx1"
 title: "Jetson TX1"
 name: "Jetson TX1"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/embedded/jetson-tx1"
+board_url:
+ - "https://developer.nvidia.com/embedded/jetson-tx1"
 board_image: "jetson_tx1.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Ethernet
   - HDMI/DisplayPort

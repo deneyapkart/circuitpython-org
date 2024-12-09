@@ -4,7 +4,8 @@ board_id: "microdev_micro_c3"
 title: "MicroDev microC3 Download"
 name: "MicroDev microC3"
 manufacturer: "MicroDev"
-board_url: "https://microdev.systems/"
+board_url:
+ - "https://microdev.systems/"
 board_image: "microdev_micro_c3.jpg"
 date_added: 2021-10-06
 family: esp32c3
@@ -14,6 +15,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 Introducing MicroDev microC3 dev-board based on Espressif's ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.

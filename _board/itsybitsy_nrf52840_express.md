@@ -4,11 +4,13 @@ board_id: "itsybitsy_nrf52840_express"
 title: "ItsyBitsy NRF52840 Express Download"
 name: "ItsyBitsy NRF52840 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4481"
+board_url:
+ - "https://www.adafruit.com/product/4481"
 board_image: "itsybitsy_nrf52840_express.jpg"
-date_added: 2019-11-4
+date_added: 2019-11-04
 family: nrf52840
 bootloader_id: feather_nrf52840_express
+download_instructions: https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express/circuitpython
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly

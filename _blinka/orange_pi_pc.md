@@ -4,12 +4,13 @@ board_id: "orange_pi_pc"
 title: "Orange Pi PC Download"
 name: "Orange Pi PC"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepipc/"
+board_url:
+ - "http://www.orangepi.org/orangepipc/"
 board_image: "orange_pi_pc.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
-date_added: 2019-6-4
+date_added: 2019-06-04
 features:
   - Wi-Fi
   - Bluetooth/BLE

@@ -4,11 +4,12 @@ board_id: "beaglev_starlight"
 title: "BeagleV Starlight Beta Prototype Download"
 name: "BeagleV Starlight Beta Prototype"
 manufacturer: "BeagleV"
-board_url: "https://github.com/beagleboard/beaglev-starlight#readme"
+board_url:
+ - "https://github.com/beagleboard/beaglev-starlight#readme"
 board_image: "beaglev_starlight.jpg"
 downloads_display: true
 blinka: true
-date_added: 2021-7-17
+date_added: 2021-07-17
 features:
   - Ethernet
   - HDMI/DisplayPort

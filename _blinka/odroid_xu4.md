@@ -1,14 +1,15 @@
 ---
 layout: download
 board_id: "odroid_xu4"
-title: "Odroid XU4 Download"
-name: "Odroid XU4"
+title: "ODROID XU4 Download"
+name: "ODROID XU4"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-xu4-special-price/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-xu4-special-price/"
 board_image: "odroid_xu4.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-29
+date_added: 2020-05-29
 features:
   - Ethernet
   - HDMI/DisplayPort

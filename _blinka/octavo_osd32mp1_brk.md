@@ -4,12 +4,13 @@ board_id: "octavo_osd32mp1_brk"
 title: "OSD32MP1-RED Download"
 name: "OSD32MP1-RED"
 manufacturer: "Octavo Systems"
-board_url: "https://octavosystems.com/octavo_products/osd32mp1-brk/"
+board_url:
+ - "https://octavosystems.com/octavo_products/osd32mp1-brk/"
 board_image: "octavo_osd32mp1_brk.jpg"
 download_instructions:
 downloads_display: true
 blinka: true
-date_added: 2021-12-6
+date_added: 2021-12-06
 features:
 
 ---

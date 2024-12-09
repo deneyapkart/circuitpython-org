@@ -4,10 +4,13 @@ board_id: "adafruit_magtag_2.9_grayscale"
 title: "MagTag - 2.9\" Grayscale E-Ink WiFi Display Download"
 name: "MagTag - 2.9\" Grayscale E-Ink WiFi Display"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4800"
+board_url:
+ - "https://www.adafruit.com/product/4800"
+ - "https://www.adafruit.com/product/4819"
 board_image: "adafruit_magtag_2.9_grayscale.jpg"
 date_added: 2020-11-10
 family: esp32s2
+download_instructions: https://learn.adafruit.com/adafruit-magtag/circuitpython
 bootloader_id: adafruit_magtag_29gray
 features:
   - Wi-Fi

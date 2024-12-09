@@ -4,11 +4,13 @@ board_id: "adafruit_feather_esp32s2_tft"
 title: "Feather ESP32-S2 with TFT Download"
 name: "Feather ESP32-S2 with TFT"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5300"
+board_url:
+ - "https://www.adafruit.com/product/5300"
 board_image: "adafruit_feather_esp32s2_tft.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: esp32s2
 bootloader_id: adafruit_feather_esp32s2_tft
+download_instructions: https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

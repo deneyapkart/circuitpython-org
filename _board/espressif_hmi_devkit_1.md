@@ -4,9 +4,10 @@ board_id: "espressif_hmi_devkit_1"
 title: "ESP32-S2 HMI Dev Kit Download"
 name: "ESP32-S2 Human Machine Interface Dev Kit"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5207"
+board_url:
+ - "https://www.adafruit.com/product/5207"
 board_image: "espressif_hmi_devkit_1.jpg"
-date_added: 2021-9-03
+date_added: 2021-09-03
 family: esp32s2
 bootloader_id: espressif_hmi_1
 features:

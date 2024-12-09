@@ -4,10 +4,12 @@ board_id: "sparkfun_redboard_turbo"
 title: "RedBoard Turbo Download"
 name: "RedBoard Turbo"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/14812"
 board_image: "sparkfun_redboard_turbo.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
+download_instructions: https://learn.sparkfun.com/tutorials/redboard-turbo-hookup-guide#reinstalling-circuit-python-
 features:
   - Battery Charging
   - STEMMA QT/QWIIC

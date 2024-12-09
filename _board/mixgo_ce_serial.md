@@ -4,9 +4,10 @@ board_id: "mixgo_ce_serial"
 title: "MixGo CE Serial Download"
 name: "MixGo CE Serial"
 manufacturer: "Mixly"
-board_url: "https://mixly.org/"
+board_url:
+ - "https://mixly.org/"
 board_image: "mixgo_ce_serial.jpg"
-date_added: 2022-5-22
+date_added: 2022-05-22
 family: esp32s2
 features:
   - Display

@@ -4,11 +4,12 @@ board_id: "lubancat2n"
 title: "LubanCat2N Download"
 name: "LubanCat2N"
 manufacturer: "EmbedFire"
-board_url: ""
+board_url:
+ - "https://embedfire.com/products/"
 board_image: "lubancat2n.jpg"
 download_instructions: ""
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - HDMI/DisplayPort
   - Ethernet

@@ -4,9 +4,10 @@ board_id: "snekboard"
 title: "Snekboard Download"
 name: "Snekboard"
 manufacturer: "keithp.com"
-board_url: "https://keithp.com/snek/snekboard"
+board_url:
+ - "https://keithp.com/snek/snekboard"
 board_image: "snekboard.jpg"
-date_added: 2019-7-30
+date_added: 2019-07-30
 family: atmel-samd
 bootloader_id: snekboard
 features:

@@ -4,9 +4,10 @@ board_id: "stm32f411ce_blackpill_with_flash"
 title: "STM32F411CE Black Pill with Flash Download"
 name: "STM32F411CE Black Pill with Flash"
 manufacturer: "WeAct Studio"
-board_url: "https://www.aliexpress.com/item/1005001456186625.html"
+board_url:
+ - "https://github.com/WeActTC/MiniF4-STM32F4x1"
 board_image: "stm32f411ce_blackpill.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: stm
 features:
   - USB-C
